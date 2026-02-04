@@ -1,5 +1,8 @@
 # Русский
-После выполения этого скрипта(оно будет неудачное), выберите какой из сетевых пакетов вам надо удалить(они конфликтуют). Когда выбрали что удалять, напишите `sudo pacman -R <пакет который вы выбрали>`
+После выполения этого скрипта(оно будет неудачное), вам будет выдана ошибка из-за конфликтующих сетевых пакетов, выберите какой из сетевых пакетов вы хотите удалить(погуглите их сравнение). Когда выбрали что удалять, напишите `sudo pacman -R <пакет который вы выбрали>`
+> Теперь вы сможете выполнять `sudo pacman -Suy`
 
 # English
-After running this script (it will fail), select which network package you want to remove (they conflict). Once you've selected what to remove, type `sudo pacman -R <the package you selected>`
+After running this script (it will fail), you will receive an error due to conflicting network packages. Select which network package you want to remove (Google a comparison). Once you've selected what to remove, type `sudo pacman -R <package you selected>`
+
+> You should now be able to run `sudo pacman -Suy`
