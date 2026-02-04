@@ -9,5 +9,3 @@ else
 fi
 
 sudo pacman -R libcamera, libcamera-ipa
-
-sudo pacman -Syu
